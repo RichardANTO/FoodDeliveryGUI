@@ -1,10 +1,10 @@
-# Food Delivery Management System
+# 🍔 Food Delivery Management System
 
-A **Java Swing-based Food Delivery Management System** that handles the complete workflow from customer ordering to driver delivery. This is a multi-role application with separate interfaces for Customers, Drivers, and Schedulers, demonstrating full-stack Java development with database integration and role-based access control.
+A **Java Swing-based Food Delivery Management System** that handles the complete workflow from customer ordering to driver delivery. This is a multi-role application with separate interfaces for Customers, Drivers, and Schedulers, demonstrating full-stack Java development with database integration and role-based access control. 🚀
 
 ---
 
-## Table of Contents
+## 📋 Table of Contents
 - [Features](#features)
 - [System Architecture](#system-architecture)
 - [Workflow](#workflow)
@@ -18,58 +18,58 @@ A **Java Swing-based Food Delivery Management System** that handles the complete
 
 ---
 
-## Features
+## ✨ Features
 
-- **Multi-role Support**: Customer, Driver, Scheduler roles with customized interfaces.
-- **Order Management**: Complete lifecycle from order creation to delivery.
-- **Database Integration**: Persistent storage using MySQL.
-- **JSON Data Handling**: Food items stored as JSON for flexibility.
-- **Input Validation**: Phone number formatting, numeric filters, and required fields.
-- **Real-time Updates**: Track order status and delivery progress.
-- **Security**: Password hashing using BCrypt.
+- **👥 Multi-role Support:** Customer, Driver, Scheduler roles with customized interfaces.
+- **🛒 Order Management:** Complete lifecycle from order creation to delivery.
+- **💾 Database Integration:** Persistent storage using MySQL.
+- **📦 JSON Data Handling:** Food items stored as JSON for flexibility.
+- **✅ Input Validation:** Phone number formatting, numeric filters, and required fields.
+- **⏱️ Real-time Updates:** Track order status and delivery progress.
+- **🔒 Security:** Password hashing using BCrypt.
 
 ---
 
-## System Architecture
+## 🏗️ System Architecture
 
 ### Core Modules
 
 1. **Authentication System (`LoginSignup`)**
-   - User registration and login
-   - Role-based access control
-   - Password encryption with BCrypt
-   - MySQL integration for user management
+   - 📝 User registration and login
+   - 🔑 Role-based access control
+   - 🔒 Password encryption with BCrypt
+   - 💻 MySQL integration for user management
 
 2. **Customer Interface (`CombinedPage`, `HomePage`, `EditPage`)**
-   - Browse and select food items
-   - Enter delivery details
-   - Edit or update existing orders
-   - View order history
+   - 🍽️ Browse and select food items
+   - 🏠 Enter delivery details
+   - ✏️ Edit or update existing orders
+   - 📜 View order history
 
 3. **Scheduler Interface (`SchedulerPage`, `ScheduleOrderPage`)**
-   - View all customer orders
-   - Assign drivers to orders
-   - Manage delivery scheduling
-   - Monitor order status
+   - 📊 View all customer orders
+   - 🚚 Assign drivers to orders
+   - 🗓️ Manage delivery scheduling
+   - 📌 Monitor order status
 
 4. **Driver Interface (`DriverHomePage`)**
-   - View assigned delivery missions
-   - Mark orders as delivered
-   - Track delivery status
+   - 📍 View assigned delivery missions
+   - ✅ Mark orders as delivered
+   - 🚀 Track delivery status
 
 ---
 
-## Workflow
+## 🔄 Workflow
 
-1. User registers or logs in with a specific role.
-2. Customer places food orders with delivery details.
-3. Scheduler assigns drivers to pending orders.
-4. Driver receives missions and updates delivery status.
-5. System tracks order completion.
+1. 🧑‍💻 User registers or logs in with a specific role.
+2. 🍔 Customer places food orders with delivery details.
+3. 🗂️ Scheduler assigns drivers to pending orders.
+4. 🚚 Driver receives missions and updates delivery status.
+5. 📦 System tracks order completion.
 
 ---
 
-## Database Structure
+## 🗄️ Database Structure
 
 ### Databases
 - `userdb` — User accounts and orders
@@ -83,16 +83,16 @@ A **Java Swing-based Food Delivery Management System** that handles the complete
 
 ---
 
-## Technical Stack
+## 💻 Technical Stack
 
-- **Frontend:** Java Swing GUI
-- **Backend:** JDBC with MySQL
-- **Security:** BCrypt password hashing
-- **Data Format:** JSON for complex food item storage
+- **Frontend:** Java Swing GUI 🖥️
+- **Backend:** JDBC with MySQL 💾
+- **Security:** BCrypt password hashing 🔐
+- **Data Format:** JSON for complex food item storage 📦
 
 ---
 
-## Installation
+## 🚀 Installation
 
 1. Clone the repository:
    ```bash
